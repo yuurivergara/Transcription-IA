@@ -1,9 +1,12 @@
-import './App.css'
+import { ButtonIcon } from "@radix-ui/react-icons";
+import { Button } from "./components/ui/button";
 
 export function App() {
 
   return (
-    <h1>Hello World</h1>
+    <Button>
+      <p>OI</p>
+    </Button>
   )
 }
 
